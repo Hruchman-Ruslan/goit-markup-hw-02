@@ -333,10 +333,12 @@
     }
 
     /* .button-list {
-    }
+    } */
 
     .button-items {
-    } */
+    background: var(--bgr-button-portfolio);
+    border-radius: 4px;
+    }
     
     .button-item {
     font-family: inherit;
@@ -346,8 +348,6 @@
     text-align: center;
     letter-spacing: 0.03em; 
     color: var(--button--color);
-    background: var(--bgr-button-portfolio);
-    border-radius: 4px;
     cursor: pointer;
     border: none;
     }
@@ -357,7 +357,6 @@
 
     .portfolio-items {
     background: var(--background--color);
-    border: 1px solid var(--border);
     }
 
     .portfolio-title {
